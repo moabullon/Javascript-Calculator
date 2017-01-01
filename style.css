@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  color: black;
+}
+.main {
+  margin: auto;
+  width: 24em;
+  height: 20em;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: #3d3f3d;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#display {
+  width: 23em;
+  height: 65px;
+  background-color: #4c4c4c;
+  margin-bottom: 2px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+
+}
+
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+
+}
+
+button {
+  padding:15px;
+  margin: 3px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+}
+
+.operators {
+  display: flex;
+}
